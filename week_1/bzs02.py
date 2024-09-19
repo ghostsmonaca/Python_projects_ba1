@@ -16,3 +16,13 @@ print(f'Logaritme: {math.log(natlogaritme):.3f}')
 
 #----------------- Hoorcollege
 #\n -> code voor een enter
+
+a = int(input("Geef getal 1: "))
+b = int(input("Geef getal 2: "))
+c = int(input("Geef getal 3: "))
+
+reeks = [a, b, c]
+reeks.sort()
+
+for x in reeks:
+    print(x, sep="<")
