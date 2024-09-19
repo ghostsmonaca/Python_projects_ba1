@@ -9,4 +9,10 @@ print("World")
 
 natlogaritme = int(input("Geef een getal"))
 print(math.log(natlogaritme))
-print(f'{math.log(natlogaritme):.3}')
+print(f'{math.log(natlogaritme):.3f}')
+
+#gebruik van f strings belangrijk
+print(f'Logaritme: {math.log(natlogaritme):.3f}')
+
+#----------------- Hoorcollege
+#\n -> code voor een enter
